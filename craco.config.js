@@ -1,3 +1,5 @@
+const CracoAntDesignPlugin = require('craco-antd');
+
 module.exports = {
   babel: {
     plugins: [
@@ -9,4 +11,5 @@ module.exports = {
       ],
     ],
   },
+  plugins: [{ plugin: CracoAntDesignPlugin }],
 };
